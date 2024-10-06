@@ -42,5 +42,5 @@ module.exports = {
       version: 'detect',
     },
   },
-  ignorePatterns: ['node_modules/', 'dist/'],
+  ignorePatterns: ['node_modules/', 'dist/', 'src/components/ui/'],
 };
