@@ -12,7 +12,7 @@ const Navbar = async () => {
       <aside className="flex items-center gap-[2px]">
         <p className="text-3xl font-bold">Auto</p>
         <Image
-          src="/fuzzieLogo.png"
+          src="/mateBolt.png"
           alt="Logo"
           width={15}
           height={15}
