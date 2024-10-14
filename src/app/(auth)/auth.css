@@ -7,12 +7,28 @@
     @apply inline-flex h-9 items-center justify-center whitespace-nowrap rounded-md bg-primary px-3  font-medium text-primary-foreground !shadow-none ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
 }
 
+.cl-signIn-root {
+    @apply w-full h-full flex items-center justify-center px-10;
+}
+
 .cl-card,
 .cl-socialButtonsBlockButton,
 .cl-alert,
 .cl-phoneInputBox,
 .cl-userButtonPopoverCard {
     @apply rounded-lg border border-input bg-background;
+}
+
+.cl-signIn-start {
+    @apply w-full max-w-md h-full max-h-[24rem] flex flex-col;
+    @apply w-full h-full
+}
+
+.cl-socialButtons{
+    @apply absolute top-[80%] flex items-center justify-center w-[80%]
+}
+.cl-socialButtonsBlockButton{
+    @apply px-10 py-2
 }
 
 .cl-headerTitle,

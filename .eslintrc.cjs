@@ -36,6 +36,7 @@ module.exports = {
     '@typescript-eslint/array-type': ['error', { default: 'generic' }],
     'react/react-in-jsx-scope': 'off',
     'prettier/prettier': ['error', prettierConfig],
+    '@typescript-eslint/no-explicit-any': 'warn',
   },
   settings: {
     react: {

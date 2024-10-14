@@ -2,6 +2,8 @@
 
 # environment
 .env
+temp
+ignore.md
 
 # dependencies
 /node_modules
