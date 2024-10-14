@@ -36,6 +36,20 @@ export type EditorCanvasTypes =
   | 'Action'
   | 'Wait';
 
+export type User = {
+  id: number;
+  clerkId: string;
+  name: string | null;
+  email: string;
+  profileImage: string | null;
+  tier: string | null;
+  credits: string | null;
+  createdAt: Date;
+  updatedAt: Date;
+  localGoogleId: string | null;
+  googleResourceId: string | null;
+};
+
 export type EditorCanvasCardType = {
   title: string;
   description: string;
