@@ -11,7 +11,8 @@
     "lint:next": "next lint",
     "lint": "eslint . -c .eslintrc.cjs --fix --cache",
     "format": "prettier --write . ",
-    "precommit": "concurrently -g -n \"eslint,lint:next,test\" -c \"#341BAB,#A6CC66,#3077C6\" \"bun run lint\" \"bun run lint:next\" \"echo 'not implemented'\"",
+    "test": "bun run build",
+    "precommit": "concurrently -g -n \"eslint,lint:next,test\" -c \"#341BAB,#A6CC66,#3077C6\" \"bun run lint\" \"bun run lint:next\" \"bun run test\"",
     "prepare": "husky"
   },
   "dependencies": {
